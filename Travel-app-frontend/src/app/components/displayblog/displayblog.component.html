@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+<div class = "container">
+  <div *ngFor="let blog of blogs" >
+  <div class = "inner">
+    <div class="card border-secondary mb-5" style="max-width: 20rem;">
+        <div class="card-header"> {{blog.title}}</div>
+        <div class="card-body">
+          <h4 class="card-title">{{blog.name}}</h4>
+          <h4 class="card-title">{{blog.date}}</h4>
+          <p class="card-text">{{blog.content}}</p>
+        </div>
+    </div>
+  </div>
+</div> 
+</div>

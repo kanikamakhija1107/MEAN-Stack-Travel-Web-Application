@@ -1,0 +1,61 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:transparent !important " >
+  <a class="navbar-brand" href="#">Backpackers</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+     
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/homepage">Home <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/aboutus">About Us</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/productDetail">Packages</a>
+      </li>
+   
+<li>
+        <a class="nav-link" routerLink="/blogs">Blogs</a>
+      </li>
+    
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/feedbacks">Feedback</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/displayfeedbacks">Show Feedbacks</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contactus">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/admin">Admin Console</a>
+    </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/signup">Register</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" routerLink="/login">Login</a>
+        </li>
+        
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/userprofile">My Account</a>
+    </li>
+
+        <div class="logout" *ngIf="displayLogout()"><input type="button" (click)="onLogout()" value="Logout" /></div>
+    </ul>
+
+    <span style="font-size: 3em; color: Tomato;">
+        <a routerLink="/cart" routerLinkActive="active">
+          <i class="fa fa-car" style="font-size:48px;"></i></a>
+      </span>
+
+
+  </div>
+</nav>

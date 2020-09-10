@@ -1,0 +1,29 @@
+
+
+<div>
+  <table *ngFor="let blog of blogs" class="table table-hover text-primary">
+
+      <th>Blog Title</th>
+      <ng-container>
+            <td>{{blog.title}}</td>
+          </ng-container> 
+     
+          <th>Actions</th>
+       
+          <ng-container>
+              
+              <td >
+                <!-- <button (click)="editBlog(blog.title)">
+                    Edit
+                </button> -->
+    
+                <button (click)="deleteBlog(blog.title)">
+                  Delete
+              </button>
+    
+              </td>
+            </ng-container> 
+
+        
+          </table>
+</div>

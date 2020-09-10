@@ -1,0 +1,127 @@
+// //colors
+// $white: white;
+// $color_cinnabar_approx: #ed4933;
+// //fonts
+// $font_0: Arial;
+// $font_1: Helvetica;
+// $font_2: sans-serif;
+// $font_3: Roboto;
+// .container {
+//     font-family: $font_3;
+//     width: 1050px;
+//     margin: 30px auto 0;
+//     display: block;
+//     background: $white;
+//     padding: 10px 50px 50px;
+//     .qtyDiv {
+//         padding-left: 15%;
+//         padding-top: 9%;
+//         font-size: 1.2em;
+//         margin-bottom: 10px;
+//     }
+//     .btn {
+//         clear: both;
+//         margin-top: 20px;
+//     }
+//     .backbtn {
+//         float: left;
+//         font-size: 1.5em;
+//         height: 75%;
+//         width: 90px;
+//     }
+//     .addtocartbtn {
+//         font-size: 1.2em;
+//         width: 160px;
+//         margin-top: 30px;
+//         margin-left: 118px;
+//     }
+//     app-nav {
+//         position: sticky;
+//         width: 100%;
+//     }
+//     .text-style {
+//         font-family: $font_0, $font_1, $font_2;
+//         font-size: 2em;
+//     }
+//     img {
+//         height: 200px;
+//         widows: 200px;
+//     }
+//     a {
+//         border-radius: 5px;
+//         color: $white;
+//         padding: .5em;
+//         text-decoration: none;
+//         background-color: $color_cinnabar_approx;
+//         box-shadow: none !important;
+//         margin-right: 16px;
+//         margin-top: 20px;
+//     }
+//     * {
+//         box-sizing: border-box;
+//     }
+//     .details {
+//         float: left;
+//         width: 60%;
+//         height: 450px;
+//         padding-left: 180px;
+//     }
+//     .qty-add {
+//         float: left;
+//         width: 30%;
+//         height: 450px;
+//         padding-top: 70px;
+//         padding-left: -10px;
+//     }
+// }
+
+
+//colors
+$white: white;
+$color_cinnabar_approx: #ed4933;
+//fonts
+$font_0: Arial;
+$font_1: Helvetica;
+$font_2: sans-serif;
+$font_3: Roboto;
+.container {
+    // background-image: url('../../../assets/images/tajMahalImg.JPG');
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1050px;
+    margin: 30px auto 0;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    display: block;
+    background: $white;
+    padding: 10px 50px 50px;
+    .addtocartbtn {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color:rgb(175, 76, 81);
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+    }
+          
+          .addtocartbtn:hover {background-color: rgb(189, 90, 95);}
+          
+          .addtocartbtn:active {
+            background-color: rgb(175, 76, 81);
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+          }
+
+
+    
+}
+
+#grid {
+    display: inline-grid;
+    grid: auto auto;
+}

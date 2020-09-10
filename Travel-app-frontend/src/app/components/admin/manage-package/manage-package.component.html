@@ -1,0 +1,71 @@
+ <div>
+      <table *ngFor="let package of packages" class="table table-hover text-primary">
+          <thead>
+              <tr>
+                <th scope="col">Package ID</th>
+                <th scope="col">Package Name</th>
+                <th scope="col">Source</th>
+                <th scope="col">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-active">
+                <th scope="row">{{package.packageID}}</th>
+                <td>{{package.packageName}}</td>
+                <td>{{package.source}}</td>
+                <td><button (click)="editPackage(package._id)">
+                    Edit
+                </button>| <button (click)="deletePackage(element._id)">
+                    Delete
+                </button></td>
+              </tr>
+            </tbody>
+            <!-- <th>Package ID</th>
+        <ng-container>
+              <td>{{package.packageID}}</td>
+            </ng-container> 
+
+            <th>Actions</th>
+            <ng-container>
+                
+                <td >
+                  <button (click)="editPackage(package._id)">
+                      Edit
+                  </button>
+      
+                  <button (click)="deletePackage(package._id)">
+                    Delete
+                </button>
+      
+                </td>
+              </ng-container>  -->
+
+          
+            </table>>
+  </div>
+
+
+
+  <!-- <table >
+      <thead>
+        <tr>
+          <th scope="col">Package ID</th>
+          <th scope="col">Package Name</th>
+          <th scope="col">Source</th>
+          <th scope="col">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-active">
+          <th scope="row">{{package.packageID}}</th>
+          <td>{{package.packageName}}</td>
+          <td>{{package.source}}</td>
+          <td><button (click)="editPackage(package._id)">
+              Edit
+          </button>| <button (click)="deletePackage(element._id)">
+              Delete
+          </button></td>
+        </tr>
+        
+      </tbody>
+    </table>  -->

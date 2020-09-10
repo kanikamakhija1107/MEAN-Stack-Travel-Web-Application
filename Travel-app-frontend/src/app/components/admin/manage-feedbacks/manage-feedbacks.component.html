@@ -1,0 +1,28 @@
+
+
+<div>
+  <table *ngFor="let feedback of feedbacks" class="table table-hover text-primary">
+
+      <th>Feedback Review</th>
+      <ng-container>
+            <td>{{feedback.review}}</td>
+          </ng-container> 
+
+          <th>Actions</th>
+          <ng-container>
+              
+              <td >
+                <!-- <button (click)="editFeedback(feedback.review)">
+                    Edit
+                </button> -->
+    
+                <button (click)="deleteFeedback(feedback.review)">
+                  Delete
+              </button>
+    
+              </td>
+            </ng-container> 
+
+        
+          </table>
+</div>

@@ -1,0 +1,175 @@
+
+
+.lista {
+    padding: 20px;
+    margin: 20px;
+  
+    // margin-top: 50px;
+    // display: grid;
+    // align-content: end;
+    //  grid-template-columns: 3;
+    // grid-gap: 15px;
+    grid-column-gap: 10px;
+    display:flex;
+    flex-direction: row ;
+    justify-content:  space-evenly ;
+  }
+
+  .listb {
+    padding: 20px;
+    margin: 20px;
+    
+    // margin-top: 50px;
+    // display: grid;
+    // align-content: end;
+    //  grid-template-columns: 3;
+     grid-gap: 5px;
+    display:flex;
+    flex-direction: row ;
+    justify-content:  space-evenly ;
+  }
+
+  .grid-item {
+
+    padding: 20px;
+    text-align: center;
+
+
+  }
+//   .grid-container > div {
+    
+//    // border-top: 200px;
+//     background-color: rgba(255, 255, 255, 0.8);
+//     display:flex;
+//     flex-direction: row ;
+//     justify-content:  space-evenly ;
+//     padding: 5px;
+//     margin: 5px;
+//     //text-align: center;
+   
+//     //font-size: 30px;
+   
+  
+  
+//   }
+   .vieweurodetails {
+
+    
+ font-size: 18px;
+//     // top: 520px;
+    
+//     // bottom: 2px;
+//     // left: 240px;
+    
+   
+
+   font-weight: 5px;
+ 
+   }
+  
+   .viewausdetails {
+ font-size: 18px;
+//     // top: 520px;
+//     // bottom: 2px;
+//     // left: 580px;
+   
+//     // width: 250px;
+//     // position: absolute;
+   
+// //   height:30px;
+//   border-radius: 10px;
+//   border:2px solid #cfdcec;
+  
+ font-weight: 5px;
+  
+  }
+  
+  .viewafricadetails {
+ font-size: 18px;
+//     // top: 520px;
+//     // bottom: 2px;
+//     // left: 930px;
+//     // right: 10px;
+//     // width: 250px;
+//     // position: absolute;
+   
+//   height:30px;
+//   border-radius: 20px;
+//   border:2px solid #cfdcec;
+    font-weight: 5px;
+// //   background: lightblue;
+   }
+  
+   .triptext {
+     font-size: 14px;
+    
+   }
+  
+// //   .customize {  
+// //     font-size: 18px;
+// //   height:30px;
+// //   border-radius: 50px;
+// //   border:2px solid #cfdcec;
+// //   position: absolute;
+// //   font-weight: 5px;
+// //   background: lightblue;
+// //   }
+  
+  
+   .viewasiadetails {
+        font-size: 18px;
+// //     top: 950px;
+// //     bottom: 2px;
+// //     left: 240px;
+// //     width: 250px;
+// //     position: absolute; 
+// //   height:30px;
+//   border-radius: 20px;
+//   border:2px solid #cfdcec;
+   font-weight: 5px;
+// //   background: lightblue;
+   }
+  
+   .viewsouthamericadetails {
+//     // font-size: 18px;
+//     // top: 950px;
+//     // bottom: 2px;
+//     // left: 580px;
+   
+//     // width: 250px;
+//     // position: absolute;
+   
+// //   height:30px;
+//   border-radius: 20px;
+//   border:2px solid #cfdcec;
+  
+   font-weight: 5px;
+// //   background: lightblue;
+   }
+  
+  
+   .viewnorthamericadetails {
+// //     font-size: 18px;
+// //     top: 950px;
+// //     bottom: 2px;
+// //     left: 930px;
+// //     right: 10px;
+// //     width: 250px;
+// //     position: absolute;
+   
+// //   height:30px;
+//   border-radius: 20px;
+//   border:2px solid #cfdcec;
+  
+   font-weight: 5px;
+// //   background: lightblue;
+   }
+  
+  
+  
+  
+  
+  
+  
+  
+  
